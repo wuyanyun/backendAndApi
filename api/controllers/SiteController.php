@@ -21,7 +21,7 @@ class SiteController extends ControllerBase
     {
           return [
                     [
-                        'actions' => ['login', 'error','test'],
+                        'actions' => ['login', 'error','test','index'],
                         'allow' => true,
                     ],
                     [

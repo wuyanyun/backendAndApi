@@ -7,6 +7,7 @@ $params = array_merge(
 );
 
 return [
+    'defaultRoute'=>'site',
     'id' => 'app-api',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'api\controllers',
